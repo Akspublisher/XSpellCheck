@@ -24,7 +24,7 @@ const [suggestedText, setSuggestedText] = useState("");
       return correctedWord || word;
     });
 
-    const correctedText = correctedWords.join(" ");
+    //const correctedText = correctedWords.join(" ");
 
     // Set the suggested text (first corrected word)
     const firstCorrection = correctedWords.find(
